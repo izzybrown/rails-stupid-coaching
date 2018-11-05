@@ -1,0 +1,43 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+#title {
+  font-size: 70px;
+  font-weight: lighter;
+  color: grey;
+  margin-left: 10px;
+}
+
+#header {
+  font-weight: lighter;
+  margin-left: 10px;
+}
+
+
+
+.form-button {
+  color: white;
+  background-color: blue;
+  height: 50px;
+  width: 80px;
+  border-radius: 3px;
+}
+
+.answer-headers {
+  font-size: 25px;
+  font-weight:lighter;
+}
+
+.container{
+  margin: 30px;
+}
+
+#answer-container {
+  background-color: #F1E8B8;
+}
+
+.link {
+  margin-left: 10px;
+  font-size: 15px;
+}

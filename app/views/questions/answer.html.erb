@@ -1,0 +1,17 @@
+<h1 id="title">Stupid Coaching</h1>
+
+
+
+<div class="container">
+<%=  @questions %>
+<h2 class="answer-headers">You</h2>
+</div>
+
+<div class="container" id="answer-container">
+<%= @answers %>
+<h2 class="answer-headers">Coach</h2>
+</div>
+
+<div class="link">
+<%= link_to "Ask a new Question", ask_path %>
+</div>
