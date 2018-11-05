@@ -41,3 +41,17 @@
   margin-left: 10px;
   font-size: 15px;
 }
+
+.form-inline {
+  display: flex;
+  width: 80%;
+}
+
+.form-control {
+  flex-grow: 1;
+  width: 80%;
+}
+
+.form-group {
+  widows: 80%;
+}
